@@ -6,7 +6,7 @@ const cartSchema = new mongoose.Schema({
     foodList:[{
         type:Schema.Types.ObjectId,
          ref:'foodPackages'
-
+        
     }]
 })
 
