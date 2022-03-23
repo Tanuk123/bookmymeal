@@ -5,7 +5,7 @@ const adminRouter = require("./routes/admin.route");
 const userRouter = require("./routes/user.route");
 const mongoose = require("mongoose");
 mongoose.connect(
-  "mongodb+srv://root:root@cluster0.8em2i.mongodb.net/BookMyMeal?retryWrites=true&w=majority"
+  "mongodb+srv://root:root@cluster0.fky4c.mongodb.net/BookMyMeal?retryWrites=true&w=majority"
 );
 
 const port = process.env.PORT || 5555;
